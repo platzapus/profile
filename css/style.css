@@ -1,5 +1,5 @@
 body {
-  background-image: url("http://www.publicdomainpictures.net/pictures/20000/velka/palm-leaf-texture-8712979692348j1.jpg");
+  background: #1a2930;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -36,8 +36,8 @@ body {
 }
 
 .custom-hdr {
-  background-color: #007700;
-  border-bottom: 2px solid #006600;
+  background-color: #0a1612;
+  border-bottom: 1px solid #f7ce3e;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,7 +47,9 @@ h1, h2, h3, h4, h5, h6 {
 section {
   width: 70%;
   margin: 0 auto;
-  border: 1px solid #009900;
+	background: #b5b1b0;
+	color: darkslategrey;
+  border-bottom: 1px solid #f7ce3e;
 }
 
 #social-container {
@@ -63,6 +65,7 @@ section {
 }
 
 .social-element {
+	color: #f7ce3e;
   margin: 0 10px;
   padding: 20px 0;
   list-style: none;
@@ -74,8 +77,6 @@ section {
 #about {
   margin-top: 10px;
   padding-top: 55px;
-  background-color: #018801;
-  color: #ffffff;
   overflow: hidden;
   opacity: .98;
 }
@@ -95,8 +96,6 @@ section {
 
 #portfolio {
   padding-top: 50px;
-  background-color: #018801;
-  color: #ffffff;
   opacity: 0.99;
 }
 
@@ -107,8 +106,6 @@ section {
 #contact {
   padding: 50px 0 50px 0;
   text-align: center;
-  background-color: #018801;
-  color: #ffffff;
   opacity: .98;
 }
 
@@ -117,17 +114,17 @@ section {
 }
 
 .social {
-  color: #ffffff;
   margin: 0 auto;
   line-height: 50px;
   padding: 10px;
-  border: 4px solid #009900;
+  border: 3px solid #f7ce3e;
+	color: #3f6262;
   border-radius: 10px;
-  background-color: #00bb00;
 }
 
 .social:hover {
   text-decoration: none;
+	color: #1a2930;
 }
 
 .port-element {
@@ -159,12 +156,22 @@ section {
   margin: 3% 5% 5% 5%;
 }
 
+.port-element img{
+	height: 200px;
+	width: 350px;
+}
+
 .port-img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
   border: 2px solid #000000;
   margin-bottom: 6px;
+}
+
+img{
+	height: 200px;
+	width: 350px;
 }
 
 @media screen and (max-width: 1141px) {
